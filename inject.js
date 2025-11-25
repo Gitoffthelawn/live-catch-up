@@ -402,7 +402,6 @@
         } else {
             new_style = true;
         }
-        console.log(new_style);
 
         clearInterval(detect_interval);
 
