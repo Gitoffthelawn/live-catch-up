@@ -1,0 +1,53 @@
+{
+    "enabled": {
+        "message": "Ativar/desativar alteração de velocidade"
+    },
+    "playbackRate": {
+        "message": "Velocidade de reprodução"
+    },
+    "showPlaybackRate": {
+        "message": "Exibir velocidade de reprodução atual"
+    },
+    "showLatency": {
+        "message": "Exibir latência atual da transmissão ao vivo"
+    },
+    "showHealth": {
+        "message": "Exibir saúde atual do buffer"
+    },
+    "showEstimation": {
+        "message": "Exibir estimativa de chegada ao tempo real da transmissão"
+    },
+    "showCurrent": {
+        "message": "Exibir tempo decorrido"
+    },
+    "showCurrentDesc": {
+        "message": "Ao clicar no tempo decorrido exibido, o carimbo de tempo será copiado para a área de transferência."
+    },
+    "smooth": {
+        "message": "Modo agressivo"
+    },
+    "smooth_desc": {
+        "message": "<span class=caution><span class=caution-title>ATENÇÃO</span><br>O modo agressivo consome o buffer o máximo possível, portanto transmissões ao vivo podem pausar com frequência.</span>"
+    },
+    "smoothThreathold": {
+        "message": "Limite mínimo de saúde do buffer (s)"
+    },
+    "smoothThreatholdDesc": {
+        "message": "Se a saúde do buffer cair abaixo do limite definido, a velocidade de reprodução será revertida para 1,0x."
+    },
+    "smoothAuto": {
+        "message": "Ajustar automaticamente o limite de saúde do buffer"
+    },
+    "smoothAutoDesc": {
+        "message": "Define o limite de saúde do buffer para 2 segundos em transmissões ao vivo de ultrabaixa latência, 4 segundos em transmissões de baixa latência e 10 segundos em transmissões de latência normal e vídeos de estreia. Esse valor é determinado pelo dobro da duração dos segmentos da transmissão, que corresponde à quantidade de segundos de dados baixados pelo player de cada vez."
+    },
+    "skip": {
+        "message": "Ir para o ponto ao vivo se o atraso exceder o máximo"
+    },
+    "skipThreathold": {
+        "message": "Atraso máximo (segundos)"
+    },
+    "appDesc": {
+        "message": "Esta extensão sincroniza transmissões ao vivo do YouTube em tempo real acelerando transmissões atrasadas devido a atrasos na recepção de dados."
+    }
+}
